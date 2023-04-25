@@ -35,7 +35,10 @@ export function RegistrationForm() {
 
   return (
     <form onSubmit={handleSubmit}>
-      <MDBCard className="text-black m-5" style={{ borderRadius: '25px' }}>
+      <MDBCard
+        className="text-black m-5 mt-6 pt-3"
+        style={{ borderRadius: '25px' }}
+      >
         <MDBCardBody>
           <MDBRow>
             <MDBCol

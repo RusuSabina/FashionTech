@@ -43,11 +43,11 @@ export default function Login() {
   return (
     <Box>
       <MDBContainer
-        className="my-5 login gradient-form"
+        className="my-5 login gradient-form "
         onSubmit={handleSubmit}
       >
         <MDBRow>
-          <MDBCol col="6" className="mb-5">
+          <MDBCol col="6" className=" mb-4 mt-4 ">
             <div className="d-flex flex-column ms-5">
               <div className="text-center p-5 me-5">
                 <img
