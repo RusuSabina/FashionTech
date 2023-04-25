@@ -59,11 +59,6 @@ export function Product() {
           >
             Add to Cart
           </button>
-
-          <button className="btn btn-gotocart ms-4">
-            {' '}
-            <a href="/cart">Go to Cart</a>
-          </button>
         </div>
       </>
     )
