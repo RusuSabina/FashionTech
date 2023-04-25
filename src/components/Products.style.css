@@ -19,3 +19,6 @@
  margin: 1rem;
  
 }
+.buy-products-btn:hover{
+ background-color: rgb(119, 153, 68)!important;
+}
