@@ -18,7 +18,7 @@ export function Navbar() {
   const pages = [
     { label: 'Home', path: '/' },
     { label: 'Products', path: '/products' },
-    { label: 'Cart', path: '/cart' },
+    { label: 'Login', path: '/login' },
   ]
   const [anchorElNav, setAnchorElNav] = React.useState(null)
 
