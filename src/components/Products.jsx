@@ -81,47 +81,42 @@ export function Products() {
 
         {filter.map((product) => {
           return (
-            <>
-              <div
-                key={product.id}
-                className="products col-12 col-md-6 col-lg-3 mb-4"
-              >
-                <div className="card  product-item h-100 text-center p-4">
+            <div
+              key={product.id}
+              className="products col-12 col-md-6 col-lg-3 mb-4"
+            >
+              <div className="card  product-item h-100 text-center p-4">
+                <a href={`/products/${product.id}`} className="card-title mb-0">
+                  <img
+                    component="image"
+                    src={product.image}
+                    className="card-img-top"
+                    alt={product.title}
+                    height="300px"
+                    width="100%"
+                  />{' '}
+                </a>
+                <div className="card-body">
                   <a
                     href={`/products/${product.id}`}
                     className="card-title mb-0"
                   >
-                    <img
-                      component="image"
-                      src={product.image}
-                      className="card-img-top"
-                      alt={product.title}
-                      height="300px"
-                      width="100%"
-                    />{' '}
+                    {' '}
+                    {product.title.substring(0, 12)}...
                   </a>
-                  <div className="card-body">
-                    <a
-                      href={`/products/${product.id}`}
-                      className="card-title mb-0"
-                    >
-                      {' '}
-                      {product.title.substring(0, 12)}...
-                    </a>
 
-                    <p className="card-text fw-bold">{product.price}€</p>
-                    <Button
-                      onClick={() => {
-                        addProduct(product)
-                      }}
-                      className="btn buy-products-btn color-btn-outline-light text-light"
-                    >
-                      buy now
-                    </Button>
-                  </div>
+                  <p className="card-text fw-bold">{product.price}€</p>
+                  <Button
+                    onClick={() => {
+                      addProduct(product)
+                    }}
+                    className="btn buy-products-btn color-btn-outline-light text-light"
+                  >
+                    buy now
+                  </Button>
                 </div>
               </div>
-            </>
+            </div>
           )
         })}
       </>
