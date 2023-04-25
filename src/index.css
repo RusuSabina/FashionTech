@@ -218,6 +218,7 @@ body, html{
   max-width: 100%;
   height: 50rem; 
   margin-bottom: 4rem;
+  margin-top: 4.2rem;
 }
 .your-cart {
   margin-top: -2rem !important;
@@ -237,6 +238,7 @@ body, html{
     height: 15rem;
     opacity: 0.9;
     filter: alpha(opacity=90);
+    margin-top: 4.5rem;
   }
 .img-cart {
   height: 9rem;
