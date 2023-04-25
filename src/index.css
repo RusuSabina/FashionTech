@@ -154,6 +154,7 @@ body, html{
 .reg:hover{
   background-color: #755858;
 }
+
 @media (max-width: 768px) {
 .small{
   font-family:'Courier New', Courier, monospace
