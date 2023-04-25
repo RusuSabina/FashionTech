@@ -1,0 +1,21 @@
+.products {
+ height: 30rem;
+}
+.latest-products {
+ padding-top: 0rem;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+}
+.product-item {
+ margin-left: 1rem;
+ margin-right: 1rem;
+}
+.card-title {
+ color: #000 !important;
+ font-size: 1.2rem;
+ font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.card {
+ box-shadow: 2px 3px 8px 0 rgba(0, 0, 0, 0.2);
+ margin: 1rem;
+ 
+}

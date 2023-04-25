@@ -1,0 +1,47 @@
+.components-categories{
+justify-content: space-around;
+margin-top: 6rem;
+margin-bottom: 5rem;
+}
+
+.btn-primary:hover{
+ background-color: #816d6d !important;
+}
+.componenta1{
+ width: 20rem;
+ height: 25rem;
+}
+
+.componenta2 {
+ width: 20rem;
+ height: 25rem;
+}
+.componenta3 {
+ width: 20rem;
+ height: 25rem;
+}
+.title_categories {
+ color: rgb(86, 71, 71);
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode'
+}
+.button_categories {
+ padding-bottom: 1rem;}
+
+@media (max-width: 768px) {
+.componenta-clothes{
+margin-bottom: 3.5rem;
+margin-inline: -1rem;
+
+}
+.componenta-jewelery {
+ margin-bottom: 3.5rem;
+  margin-inline: -1rem;
+}
+.componenta-electronics {
+ margin-bottom: 2rem;
+  margin-inline: -1rem;
+}
+.components-categories{
+  margin-top: 3rem;
+}
+}
