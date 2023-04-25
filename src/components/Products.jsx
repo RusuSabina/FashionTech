@@ -82,7 +82,10 @@ export function Products() {
         {filter.map((product) => {
           return (
             <>
-              <div className="products col-12 col-md-6 col-lg-3 mb-4">
+              <div
+                key={product.id}
+                className="products col-12 col-md-6 col-lg-3 mb-4"
+              >
                 <div className="card  product-item h-100 text-center p-4">
                   <a
                     href={`/products/${product.id}`}
