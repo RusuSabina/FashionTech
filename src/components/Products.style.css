@@ -22,3 +22,12 @@
 .buy-products-btn:hover{
  background-color: rgb(119, 153, 68)!important;
 }
+@media (max-width: 768px) {
+.latest-products{
+ margin-top: 5rem !important;
+ background-color: rgb(244, 233, 233);
+}
+.text-latestproducts{
+margin-top: 4rem;
+}
+}
