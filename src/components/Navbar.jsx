@@ -39,7 +39,7 @@ export function Navbar() {
   console.log({ cart })
 
   return (
-    <AppBar className="nav" position="static">
+    <AppBar className="nav" position="fixed">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <LocalMallRoundedIcon
