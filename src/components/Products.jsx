@@ -111,7 +111,7 @@ export function Products() {
                       onClick={() => {
                         addProduct(product)
                       }}
-                      className="btn color- btn-outline-light text-light"
+                      className="btn buy-products-btn color-btn-outline-light text-light"
                     >
                       buy now
                     </Button>
