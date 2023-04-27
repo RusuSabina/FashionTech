@@ -8,7 +8,7 @@ export default function CartPage() {
   console.log(cart)
 
   return (
-    <>
+    <Box>
       <section className="bg-cart "></section>
 
       <Typography className="your-cart fw-bold text-center">
@@ -63,6 +63,6 @@ export default function CartPage() {
         )}
       </Box>
       <hr />
-    </>
+    </Box>
   )
 }
