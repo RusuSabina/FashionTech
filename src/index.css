@@ -107,6 +107,11 @@ body, html{
   position: relative;
   
 }
+.scrolltotop{
+  bottom: 5rem !important;
+  
+  
+}
 
 /* LOGIN PAGE */
 .right {
